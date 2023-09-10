@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;600&display=swap');
+
+body {
+    font-family: 'IBM Plex Mono', monospace;
+    padding: 0;
+    margin: 0;
+}
+
+#nav-bar {
+    height: 30px;
+    background-color: pink;
+    padding: 5px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+nav > h3 {
+    margin: 0;
+}
+
+#blog-posts {
+    padding: 40px 40px 10px;
+    font-size: 1.3em;
+}
+
+#post-list  {
+    border-bottom: 3px solid pink;
+}
+
+#post-list {
+    padding-bottom: 1em;
+}
+
+form {
+    padding: 60px 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    background-color: rgb(244, 235, 237);
+}
+
+label {
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+
+input, textarea {
+    border: none;
+    border-radius: 5px;
+    padding: .5em 1em;
+    font-size: 1.5em;
+    max-width: 700px;
+}
+
+textarea {
+    resize: none;
+}
+
+#form-btn {
+    width: fit-content;
+    background-color: rgb(245, 167, 180);
+    color: white;
+    font-size: 1.4em;
+    padding: .6em 1.6em;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0px 2px 2px #777;
+}
+
+#form-btn:hover {
+    background-color: rgb(246, 137, 217);
+    transition: .5s;
+}
+
+#form-btn:active {
+    transform:translateY(2px);
+    box-shadow: 0 0 0;
+    outline: 0;
+}
